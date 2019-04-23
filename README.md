@@ -1,9 +1,28 @@
-This is ready Template if you want to create app which contains both react and node.
+# Node React Template
+This is the template  or boilerplate if you want to create project with node and react.
 
-1.To get goint clone this repository.
-2.Then run 'npm install'.
-3.Then run 'npm run dev'.
-4.You are good to go wait for server start and browser will open localhost:3000, 
-5.Node will start with nodemon on port 3001 by default.
 
-If you want to use different port then in package.json file change proxy object to your node port and start node server on that port.
+### Prerequisites
+
+Clone this URL with git.
+
+```
+https://github.com/Sangammm/Node-React-Template.git
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+```
+npm install
+```
+This code start react server on localhost 3000 and node server on 3001.
+Make sure 3001 port is free before starting server.
+```
+npm run dev
+```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
